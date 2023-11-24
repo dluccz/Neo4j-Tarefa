@@ -1,6 +1,8 @@
 from neo4j import GraphDatabase
 from neo4j.exceptions import ServiceUnavailable, AuthError
 
+#Aluno: Christopher de Lucas Silveira Freitas
+
 class RedeSocial:
 
     def __init__(self, uri, usuario, senha):
@@ -91,7 +93,7 @@ def exibir_menu():
 def main():
     uri = "neo4j://localhost:7687"
     usuario = "neo4j"
-    senha = "31051999"
+    senha = "PRIVADO"
 
     try:
         rede_social = RedeSocial(uri, usuario, senha)
